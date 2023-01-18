@@ -1,0 +1,247 @@
+.lineonly {
+    border-bottom: 1px solid #ebebeb;
+    clear: both;
+    margin: 18px 0;
+}
+
+.hadvanced {
+    color: #d93025;
+    font-size: 1.4em;
+    margin: 25px 40px;
+
+}
+
+.btnimg {
+    display: flex;
+    outline: none;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+}
+
+.backgooglelogo {
+    margin-top: -10;
+    padding-left: 17px;
+}
+
+.linetop {
+    border-top: 1px solid gainsboro;
+    margin: 0px 20px 0 14px;
+    padding-bottom: 4px;
+}
+
+.flowbox {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: -2px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 4px 6px rgba(32, 33, 36, .28);
+    border: 0;
+    padding-bottom: 4px;
+    position: absolute;
+    width: 100%;
+}
+
+.btnnew {
+    background-color: rgb(248, 249, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 0 16px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    min-width: 54px;
+    height: 36px;
+    line-height: 27px;
+    text-align: center;
+
+}
+
+.btnnew:hover {
+    border: 1px solid #b2b5b8;
+}
+
+.searchbox {
+    max-width: 584px;
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+}
+
+.firstdiv {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.googleimge1 {
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(32, 33, 36);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-top: auto;
+    height: calc(100% - 560px);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    max-height: 290px;
+    min-height: 92px;
+}
+
+.googleimg {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+
+.imgown {
+    max-height: 100%;
+    min-height: 100%;
+    object-fit: contain;
+    object-position: 50% 100%;
+    max-width: 100%;
+    width: 272px;
+}
+
+body {
+    background-attachment: scroll;
+    background-size: auto;
+    color: rgb(32, 33, 36);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    min-width: 400px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.formdiv {
+
+    box-sizing: border-box;
+    color: rgb(32, 33, 36);
+    flex-shrink: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    max-height: 160px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.whitebox {
+
+    box-sizing: border-box;
+    color: rgb(32, 33, 36);
+    flex-grow: 1;
+    flex-shrink: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+
+.haed {
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(32, 33, 36);
+    display: flex;
+    flex-shrink: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 60px;
+    padding: 6px;
+}
+
+.uhead {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+
+
+.AdImg {
+    color: black;
+    text-decoration: none;
+    font: 13px Arial, sans-serif;
+}
+
+.AdImg:hover {
+    text-decoration: underline solid;
+    color: black;
+
+}
+
+
+.div1forsearchI {
+
+    padding-right: 8px;
+    padding-left: 14px;
+    padding-top: 1px;
+    padding-bottom: 0;
+    height: 44px;
+
+}
+
+.div2forsearchI {
+    padding-right: 2px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9px;
+
+}
+
+.inputbox {
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0;
+}
+
+.inputbox:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28) !important;
+}
+
+.div1forcamI {
+    padding-left: 8px;
+    padding-top: 1px;
+    padding-right: 14px;
+    padding-bottom: 0;
+}
+
+.div2forcamI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9px;
+    width: 20px;
+    height: 20px;
+}
+
+.inptq {
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
